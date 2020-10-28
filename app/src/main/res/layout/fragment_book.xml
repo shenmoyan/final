@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+
+<TextView
+    android:id="@+id/txt_content3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <HorizontalScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:paddingLeft="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_marginRight="19dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp">
+
+
+                <ImageView
+                    android:id="@+id/zb_header"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/book1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zb_header"
+                    android:layout_centerHorizontal="true"
+                    android:text="晚熟的人"
+                    android:textColor="#F0FFF0"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginRight="19dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp">
+
+
+                <ImageView
+                    android:id="@+id/zb_header1"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/book3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zb_header1"
+                    android:layout_centerHorizontal="true"
+                    android:text="无法别离"
+                    android:textColor="#F0FFF0"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_marginRight="19dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp">
+
+
+                <ImageView
+                    android:id="@+id/zb_header3"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/book4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zb_header3"
+                    android:layout_centerHorizontal="true"
+                    android:text="活着"
+                    android:textColor="#F0FFF0"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:paddingLeft="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_marginRight="19dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+
+
+                <ImageView
+                    android:id="@+id/zb_header4"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/book_2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zb_header4"
+                    android:layout_centerHorizontal="true"
+                    android:text="伪心理学"
+                    android:textColor="#F0FFF0"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginRight="19dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+
+
+                <ImageView
+                    android:id="@+id/zb_header5"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/book5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zb_header5"
+                    android:layout_centerHorizontal="true"
+                    android:text="这就是人生吧"
+                    android:textColor="#F0FFF0"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_marginRight="19dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+
+
+                <ImageView
+                    android:id="@+id/zb_header6"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/book6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zb_header6"
+                    android:layout_centerHorizontal="true"
+                    android:text="设计诗"
+                    android:textColor="#F0FFF0"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+</LinearLayout>
+

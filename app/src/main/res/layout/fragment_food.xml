@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_content2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:id="@+id/ll_top_split"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+
+
+        android:orientation="horizontal"/>
+
+    <LinearLayout style="@style/row_style">
+
+        <LinearLayout
+            android:id="@+id/ll_test1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/huoguo"/>
+
+            <TextView
+                style="@style/item_text_style"
+                android:textColor="#ffffff"
+                android:text="火锅🍲"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_test2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/cake"/>
+
+            <TextView
+                style="@style/item_text_style"
+                android:textColor="#ffffff"
+                android:text="蛋糕🍰"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_test3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/burger"/>
+
+            <TextView
+                style="@style/item_text_style"
+                android:textColor="#ffffff"
+                android:text="汉堡🍔"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout style="@style/row_style">
+
+        <LinearLayout
+            android:id="@+id/ll_test4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/yinliao"/>
+
+            <TextView
+                style="@style/item_text_style"
+                android:textColor="#ffffff"
+                android:text="饮料🥤"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_test5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/fen"/>
+
+            <TextView
+                style="@style/item_text_style"
+                android:textColor="#ffffff"
+                android:text="鱼肉🐟"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_test6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/naicha"/>
+
+            <TextView
+                style="@style/item_text_style"
+                android:textColor="#ffffff"
+                android:text="奶茶🍵"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout style="@style/row_style">
+
+        <LinearLayout
+            android:id="@+id/ll_test7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/shala"/>
+
+            <TextView
+                style="@style/item_text_style"
+                android:textColor="#ffffff"
+                android:text="沙拉🥗"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_test8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/xiangsuzhajikuai"/>
+
+            <TextView
+                style="@style/item_text_style"
+                android:textColor="#ffffff"
+                android:text="鸡排🍗"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_test9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/xiaolongxia"/>
+
+            <TextView
+                style="@style/item_text_style"
+                android:textColor="#ffffff"
+                android:text="小龙虾🦐"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_bottom_split"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        android:orientation="horizontal"/>
+
+</LinearLayout>
+

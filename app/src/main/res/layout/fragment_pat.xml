@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/w_1">
+
+
+    <TextView
+        android:id="@+id/txt_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <HorizontalScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:paddingLeft="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_marginRight="19dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp">
+
+
+                <ImageView
+                    android:id="@+id/zb_header"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/pat1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zb_header"
+                    android:layout_centerHorizontal="true"
+                    android:text="斯芬克斯"
+                    android:textColor="#F0FFF0"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginRight="19dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp">
+
+
+                <ImageView
+                    android:id="@+id/zb_header1"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/pat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zb_header1"
+                    android:layout_centerHorizontal="true"
+                    android:text="柴犬"
+                    android:textColor="#F0FFF0"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_marginRight="19dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp">
+
+
+                <ImageView
+                    android:id="@+id/zb_header3"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/pat3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zb_header3"
+                    android:layout_centerHorizontal="true"
+                    android:text="短腿"
+                    android:textColor="#F0FFF0"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:paddingLeft="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_marginRight="19dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+
+
+                <ImageView
+                    android:id="@+id/zb_header4"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/pat6"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zb_header4"
+                    android:layout_centerHorizontal="true"
+                    android:text="加菲猫"
+                    android:textColor="#F0FFF0"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginRight="19dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+
+
+                <ImageView
+                    android:id="@+id/zb_header5"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/pat2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zb_header5"
+                    android:layout_centerHorizontal="true"
+                    android:text="萨摩耶"
+                    android:textColor="#F0FFF0"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_marginRight="19dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+
+
+                <ImageView
+                    android:id="@+id/zb_header6"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/pag4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zb_header6"
+                    android:layout_centerHorizontal="true"
+                    android:text="兔子"
+                    android:textColor="#F0FFF0"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+</LinearLayout>
+
